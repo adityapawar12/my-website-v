@@ -1,4 +1,5 @@
 /* COLORS */
+
 /* 
     WHITE #fefefd neutral background
     YELLOW #f1b501 header u
@@ -37,6 +38,7 @@
 /* HEADER SECTION */
 
 /* ID'S */
+
 #header-section {
     background-color: #f1b501;
     color: #fefefd;
@@ -73,8 +75,6 @@
 }
 
 /* NAME */
-
-
 /* CONTENT SECTION */
 
 /* WELCOME SECTION */
@@ -146,7 +146,6 @@
 /* CLASSES */
 .project {
     background-color: #88CC77;
-    height: 15rem;
     margin: 3rem 0;
     padding: 1.5rem 4rem;
     border-radius: 50px;
@@ -159,8 +158,7 @@
 }
 
 .project-text {
-    float: right;
-    text-align: left;
+    display: inline-block;
     width: 75%;
 }
 
@@ -174,7 +172,6 @@
     font-size: 1rem;
     font-weight: 200;
     padding: 1rem 5rem 0 0;
-    overflow: auto;
 }
 
 /* NAME */
@@ -193,7 +190,6 @@
 
 .social-links {
     padding: 2rem 3rem;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -206,15 +202,86 @@
 }
 
 .copyright-part {
-    padding: qrem 3rem;
-    margin: 0 auto;
+    padding: 0 3rem;
     text-align: center;
 }
 
 .copyright-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     color: inherit;
 }
 
 /* NAME */
+
+/* TABLET MEDIA QUERIES */
+
+@media (max-width: 786px) {
+    #header-section {
+        padding: 2rem 3rem;
+    }
+
+    .nav-logo {
+        font-size: 2.3rem;
+    }
+
+    .nav-menu-item {
+        padding: 0.3rem;
+    }
+     
+    .nav-menu-link {
+        font-size: 1.2rem;
+    }
+
+    #welcome-section {
+        padding: 2rem 3rem;
+    }
+
+    .welcome-text {
+        font-size: 3rem;
+    }
+
+    #about-section {
+        padding: 2rem 3rem;
+    }
+
+    .about-text {
+        font-size: 2rem;
+    }
+
+    #projects-section {
+        padding: 3rem 4rem;
+    }
+        
+    .project {
+        margin: 2rem 0;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .project-name {
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .project-description {
+        padding: 1rem 2rem 0 0;
+    }
+
+    
+    .social-links {
+        padding: 1.5rem 3rem;
+    }
+
+    .social-link {
+        font-size: 1.2rem;
+        padding: 0 0.6rem;
+    }
+
+    .copyright-text {
+        font-size: 1rem;
+    }
+    
+}
+
+/* MOBILE MEDIA QUERIES */
+
