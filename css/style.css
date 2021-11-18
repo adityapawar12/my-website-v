@@ -96,16 +96,6 @@
     font-weight: 200;
     width: 45%;
     display: inline-block;
-    padding-right: 1rem;
-}
-
-.welcome-text:hover {
-    font-size: 5rem;
-    font-weight: 200;
-    width: 45%;
-    color-scheme: #ffffff #000000;
-    display: inline-block;
-    padding-right: 1rem;
 }
 
 .welcome-image {
@@ -285,3 +275,109 @@
 
 /* MOBILE MEDIA QUERIES */
 
+
+@media (max-width: 525px) {
+    #header-section {
+        padding: 1.5rem 2rem;
+    }
+
+    .nav-logo {
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .nav-menu {
+        display: block;
+        float: none;
+    }
+
+    .nav-menu-item {
+        display: block;
+        padding: 0.6rem;
+        text-align: center;
+    }
+     
+    .nav-menu-link {
+        font-size: 1.2rem;
+    }
+
+    #welcome-section {
+        padding: 1rem 1.5rem;
+    }
+
+    .welcome-text {
+        font-size: 2rem;
+        font-weight: 600;
+        width: 100%;
+        display: block;
+    }
+
+    .welcome-image {
+        width: 100%;
+        display: block;
+    }
+
+    #about-section {
+        padding: 1rem 1.5rem;
+    }
+
+    .about-text {
+        font-size: 1.5rem;
+    }
+
+    #projects-section {
+        padding: 2rem 3rem;
+    }
+        
+    .project {
+        margin: 2rem 0;
+        padding: 1rem 1.5rem;
+    }
+
+    .project-image {
+        float: none;
+        display: block;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .project-text {
+        width: 100%;
+        display: block;
+    }
+
+    .project-name {
+        font-size: 1.5rem;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .project-desc {
+        padding: 1rem;
+    }
+
+    #footer-section {
+        padding: 1rem;
+    }
+    
+    .social-links {
+        padding: 1rem;
+    }
+
+    .social-link {
+        font-size: 1rem;
+        padding: 0 0.3rem;
+    }
+
+    .copyright-part {
+        padding: 0.3rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-size: 0.8rem;
+    }
+    
+}
