@@ -25,12 +25,22 @@
     RED2 #aa201f
 */
 
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Open+Sans:wght@300;500;700&family=Ubuntu:wght@300;500;700&display=swap');
+
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
 /* EVERYTHING */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
@@ -40,12 +50,19 @@
 /* ID'S */
 
 #header-section {
-    background-color: #f1b501;
-    color: #fefefd;
-    padding: 3rem 5rem;
+    background-color: #fefefd;    
+    color: #f1b501;
 }
 
 /* CLASSES */
+.navbar {
+    background-color: #ffffff00;
+    color: #f1b501;
+    width: 100%;
+    top: 0px;
+    padding: 2rem 5rem;
+}
+
 .nav-logo {
     font-size: 3rem;
     display: inline;
@@ -75,36 +92,34 @@
 }
 
 /* NAME */
-/* CONTENT SECTION */
 
 /* WELCOME SECTION */
 
 /* ID'S */
 #welcome-section {
-    padding: 3rem 5rem;
-    color: #fefefd;
-    background-color: #f1b501;
+    padding: 0 5rem;
+    color: #f1b501;
+    position: relative;
 }
 
 /* CLASSES */
 .welcome-box {
+    text-align: center;
+    padding: 16rem 0;
     width: 100%;
 }
 
 .welcome-text {
     font-size: 5rem;
     font-weight: 200;
-    width: 45%;
+    width: 100%;
     display: inline-block;
-}
-
-.welcome-image {
-    display: inline-block;
-    width: 50%;
-    height: auto;
 }
 
 /* NAME */
+
+
+/* CONTENT SECTION */
 
 /* ABOUT ME SECTION */
 
@@ -119,6 +134,30 @@
 .about-text {
     font-size: 3rem;
     font-weight: 200;
+}
+
+.about-buttons {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-button {
+    background-color: #f1b501;
+    margin: 0 2rem;
+    color: #fefefd;
+    border: 0.2rem solid #efefef;
+    padding: 0.5rem 2.5rem;
+    font-size: 1.2rem;
+}
+
+.about-button:hover {
+    color: #f1b501;
+    background-color: #fefefd;
+    margin: 0 2rem;
+    border: 0.2rem solid #bfbfbf;
+    padding: 0.5rem 2.5rem;
+    font-size: 1.2rem;
+    transition: ease-in-out 0.4s;
 }
 
 /* NAME */
@@ -164,6 +203,20 @@
     padding: 1rem 5rem 0 0;
 }
 
+.project-demo {
+    display: block;
+    padding: 1rem 0;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #fefefd;
+    text-transform: uppercase;
+}
+
 /* NAME */
 
 
@@ -173,13 +226,13 @@
 #footer-section {
     background-color: #515150;
     color: #fefefd;
-    padding: 2rem 5rem;
+    padding: 1rem 5rem;
 }
 
 /* CLASSES */
 
 .social-links {
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     text-align: center;
 }
 
@@ -285,7 +338,6 @@
         font-size: 2rem;
         display: block;
         text-align: center;
-        padding-bottom: 1rem;
     }
 
     .nav-menu {
